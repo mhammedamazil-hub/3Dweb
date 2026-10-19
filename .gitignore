@@ -1,0 +1,36 @@
+# build outputs
+.gradle/
+build/
+*/build/
+app/build/
+.cxx/
+out/
+*.apk
+*.aab
+*.apk.idsig
+local.properties
+captures/
+
+# native/cmake scratch
+cmake-build-*/
+CMakeFiles/
+CMakeCache.txt
+compile_commands.json
+Testing/
+
+# asset scratch + generated
+assets/**/_tmp/
+*.glb.orig
+docs/_build/
+
+# editors/os
+.idea/
+.vscode/
+*.swp
+.DS_Store
+
+# never commit vendored toolchains or big intermediates
+third_party/**/build/
+*.aar
+*.tgz
+*.zip
